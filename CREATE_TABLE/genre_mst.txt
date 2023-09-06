@@ -1,0 +1,5 @@
+CREATE TABLE `genre_mst` (
+  `genre_Name` varchar(45) NOT NULL,
+  `genre_Number` int(11) DEFAULT NULL,
+  PRIMARY KEY (`genre_Name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

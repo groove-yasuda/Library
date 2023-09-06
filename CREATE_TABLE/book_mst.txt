@@ -1,0 +1,7 @@
+CREATE TABLE `book_mst` (
+  `book_Name` varchar(255) NOT NULL,
+  `book_Number` int(11) NOT NULL,
+  `book_Number_Branch` int(11) DEFAULT NULL,
+  `genre_Number` int(11) DEFAULT NULL,
+  PRIMARY KEY (`book_Number`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

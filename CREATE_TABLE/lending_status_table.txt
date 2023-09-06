@@ -1,0 +1,6 @@
+CREATE TABLE `lending_status_table` (
+  `card_Number` int(11) NOT NULL,
+  `book_Number` int(11) DEFAULT NULL,
+  `book_Number_Branch` int(11) DEFAULT NULL,
+  `return_Date` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
